@@ -26,7 +26,7 @@ dogButton.onclick = function () {
             // If the response is fine, return the JSON object
             return response.json();
         })
-        // SHows the result
+        // Shows the result
         .then(result => {
             // Clears everything
             imgContainer.innerHTML = '';
@@ -70,7 +70,7 @@ catButton.onclick = function () {
             // If the response is fine, return the JSON object
             return response.json();
         })
-        // SHows the result
+        // Shows the result
         .then(result => {
             // Clears everything
             imgContainer.innerHTML = '';
