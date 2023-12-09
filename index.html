@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cat & Dog API | COMP1073 Client-Side JavaScript</title>
+    <!-- Page icon from icons8 -->
+    <link rel="icon" href="img/icons8-pet-96.png">
+    <!-- CSS Linked -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Main flex container -->
+    <div class="flex-container">
+        <!-- Dog section -->
+        <div class="dog">
+            <h1>Dog API</h1>
+            <p>The documentation for this API can be found <a
+                    href="https://developers.thecatapi.com/view-account/ylX4blBYT9FaoVd6OhvR?report=8FfZAkNzs"
+                    target="_blank">here</a>.</p>
+            <p>Press the button below to generate a random image of a dog.</p>
+            <p id="errorMsg1"></p>
+            <input type="button" value="Generate!" id="dogFetchButton">
+            <p>Enter the amount of pictures you would like to generate: <small>(max 10)</small></p>
+            <input type="number" id="dogUserNumber">
+        </div>
+
+        <br>
+        
+        <!-- Cat section -->
+        <div class="cat">
+            <h1>Cat API</h1>
+            <p>The documentation for this API can be found <a
+                    href="https://developers.thecatapi.com/view-account/ylX4blBYT9FaoVd6OhvR?report=8FfZAkNzs"
+                    target="_blank">here</a>.</p>
+            <p>Press the button below to generate a random image of a cat.</p>
+            <p id="errorMsg2"></p>
+            <input type="button" value="Generate!" id="catFetchButton">
+            <p>Enter the amount of pictures you would like to generate: <small>(max 10)</small></p>
+            <input type="number" id="catUserNumber">
+        </div>
+
+        <!-- Container to hold dog and cat images -->
+        <div class="img-container"></div>
+    </div>
+
+    <!-- JavaScript linked -->
+    <script src="js/animals.js"></script>
+</body>
+
+</html>
